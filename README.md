@@ -1,8 +1,19 @@
 # Pokemon_CTP_Project
 Hosts the main files for the Pokemon CTP  group project.
 
+
+9/21/2024:
+Found a current work around to imporove the model's accuracy has improved, but only in respect to single pokemon type classification. 
+For the model to output "true" values we will need to clean up the data and derive new classes for these attributes. We can divi up this task
+and talk about how we can do this, so that our model can input true value. :)
+
+
+
+
+
+
 9/20/2024:
-Current aim
+
 
 At this point in time, I have was able to implement(still working /playing around with it) a base image classification model using a smaller dataset.
 However, the classification is not that accurate, so in order to improve the model's effort I had obtained a larget image set of Pokemons, almost 10k +, vs. the orginal 1k
