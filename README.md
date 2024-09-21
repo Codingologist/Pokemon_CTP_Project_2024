@@ -1,6 +1,8 @@
 # Pokemon_CTP_Project
 Hosts the main files for the Pokemon CTP  group project.
 
+UPDATE DASHBOARD
+
 9/21/2024(2) Femi:
 Found a current work around to automate cleaning the image data from our datasets, classify them into the 150 + types, and create class folders for them, so that it could be fed into the model.
 I believe we still need a larger data set, and may have to web scrapping, albiet not advised. LOL
