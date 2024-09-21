@@ -7,6 +7,9 @@ Found a current work around to imporove the model's accuracy, but only in respec
 For the model to output "true" values we will need to clean up the data and derive new classes for these attributes. We can divi up this task
 and talk about how we can do this, so that our model can input true value. :)
 
+Albiet not reccomended, we may have to do some web scrapping as we need a larger training set of images to train our model on.
+If start early and run it daily whenever, we are not using out devices, we could obtain a substatial amount of data!
+
 
 
 
