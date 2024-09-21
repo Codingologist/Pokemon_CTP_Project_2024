@@ -1,0 +1,23 @@
+Image Classification:
+
+https://www.geeksforgeeks.org/image-classifier-using-cnn/
+
+
+
+Generative adversarial network (GAN):
+
+https://www.geeksforgeeks.org/generative-adversarial-networks-gans-an-introduction/
+
+
+
+Logistic Regression/ Linear Regression:
+
+https://www.geeksforgeeks.org/ml-logistic-regression-using-python/
+
+https://www.geeksforgeeks.org/linear-regression-python-implementation/
+
+
+
+
+
+
