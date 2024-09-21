@@ -1,8 +1,14 @@
 # Pokemon_CTP_Project
 Hosts the main files for the Pokemon CTP  group project.
 
+UPDATE DASHBOARD
 
-9/21/2024:
+9/21/2024(2) Femi:
+Found a current work around to automate cleaning the image data from our datasets, classify them into the 150 + types, and create class folders for them, so that it could be fed into the model.
+I believe we still need a larger data set, and may have to web scrapping, albiet not advised. LOL
+
+
+9/21/2024 Femi:
 Found a current work around to imporove the model's accuracy, but only in respect to single pokemon type classification. 
 For the model to output "true" values we will need to clean up the data and derive new classes for these attributes. We can divi up this task
 and talk about how we can do this, so that our model can input true value. :)
@@ -15,7 +21,7 @@ If start early and run it daily whenever, we are not using out devices, we could
 
 
 
-9/20/2024:
+9/20/2024 Femi:
 
 
 At this point in time, I have was able to implement(still working /playing around with it) a base image classification model using a smaller dataset.
