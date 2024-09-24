@@ -3,6 +3,10 @@ Hosts the main files for the Pokemon CTP  group project.
 
 UPDATE DASHBOARD
 
+9/23/2024 Femi: 
+Found a way to derive a Python script, who's goal was to web scrap Pokemon images from Google images. At this time, the script has web-scrapped over 30,000 + images. This is good so far, and once fed to our model
+should make it more accurate. Lastly, the aim is web scrap over 100k + images, within a reasonable time frame, to improve the robustness of our model!
+
 9/21/2024(2) Femi:
 Found a current work around to automate cleaning the image data from our datasets, classify them into the 150 + types, and create class folders for them, so that it could be fed into the model.
 I believe we still need a larger data set, and may have to web scrapping, albiet not advised. LOL
