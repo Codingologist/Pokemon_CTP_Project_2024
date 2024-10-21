@@ -4,7 +4,7 @@ Hosts the main files for the Pokemon CTP  group project. :)
 UPDATE DASHBOARD
 
 10/20/2024 Carmen:
-![v1_mockup photo](assets/v1_mockup.png)
+<img src="assets/v1_mockup.png" alt="v1_mockup" width="200">
 Started on version 1 mock-up of front-end design for Pokedex using HTML & CSS. Looking into how to incorporate JavaScript and AI integration to code. 
 
 9/23/2024 Femi: 
