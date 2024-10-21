@@ -3,6 +3,9 @@ Hosts the main files for the Pokemon CTP  group project. :)
 
 UPDATE DASHBOARD
 
+10/20/2024 Carmen:
+Started on version 1 mock-up of front-end design for Pokedex using HTML & CSS. Looking into how to incorporate JavaScript and AI integration to code. 
+
 9/23/2024 Femi: 
 Found a way to derive a Python script, who's goal was to web scrap Pokemon images from Google images. At this time, the script has web-scrapped over 40,000 + images. This is good so far, and once fed to our model
 should make it more accurate. Lastly, the aim is web scrap over 100k + images, within a reasonable time frame, to improve the robustness of our model!
