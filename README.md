@@ -5,7 +5,7 @@ UPDATE DASHBOARD
 
 10/20/2024 Carmen:
 <br>
-<img width="500" height="250" alt="v1_ mockup" src="https://github.com/user-attachments/assets/c69ffd4c-792a-41b5-b0eb-b4dd8601e902">
+<img width="500" height="300" alt="v1_ mockup" src="https://github.com/user-attachments/assets/c69ffd4c-792a-41b5-b0eb-b4dd8601e902">
 <br>
 Started on version 1 mock-up of front-end design for Pokedex using HTML & CSS. Looking into how to incorporate JavaScript and AI integration to code. 
 
