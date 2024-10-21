@@ -1,0 +1,13 @@
+.pokedex-top {
+    display: flex;
+    flex-direction: row;
+    align-items: ;
+    justify-content: center;
+}
+
+.pokedex-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: ;
+    justify-content: center;
+}
