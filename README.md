@@ -5,7 +5,7 @@ UPDATE DASHBOARD
 
 10/30/2024 Carmen:
 <br>
-<img width="669" alt="v2_pokedex" src="https://github.com/user-attachments/assets/bd33aa2d-faa8-457e-8dc2-704d005810d6">
+<img width="500" height="300" alt="v2_pokedex" src="https://github.com/user-attachments/assets/bd33aa2d-faa8-457e-8dc2-704d005810d6">
 <br>
 Completed version 2 of Pokedex interface with screens, shading, and rounded borders. Looking into adding buttons in next phase and potentially a header for useful links.
 
