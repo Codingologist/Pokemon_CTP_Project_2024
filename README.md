@@ -5,6 +5,13 @@ UPDATE DASHBOARD
 
 10/30/2024 Carmen:
 <br>
+<img width="500" height="300" alt="v3_pokedex" src="https://github.com/user-attachments/assets/3d12b992-240c-4120-9143-24ebd1600015">
+<br>
+Completed version 3 of Pokedex interface. Added background image, pokedex offset shading to give “floating” effect, transparent header with logo and useful links.
+Looking to add buttons, Title, and “Pokemon-esque” font in V4
+
+10/29/2024 Carmen:
+<br>
 <img width="500" height="300" alt="v2_pokedex" src="https://github.com/user-attachments/assets/bd33aa2d-faa8-457e-8dc2-704d005810d6">
 <br>
 Completed version 2 of Pokedex interface with screens, shading, and rounded borders. Looking into adding buttons in next phase and potentially a header for useful links.
