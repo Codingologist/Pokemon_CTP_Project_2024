@@ -3,6 +3,9 @@ Hosts the main files for the Pokemon CTP  group project. :)
 
 UPDATE DASHBOARD
 
+10/31/2024 Femi: 
+Started to add functionality to the front-end of our application with a manual file upload (which displays file name) /drag and drop option. Additionally, a prediction button is currently in the works. For now, it outputs a given value “FIRE”, as a test, with the hopes to add our model output instead.
+
 10/30/2024 Carmen:
 <br>
 <img width="500" height="300" alt="v3_pokedex" src="https://github.com/user-attachments/assets/3d12b992-240c-4120-9143-24ebd1600015">
