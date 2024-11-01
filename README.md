@@ -4,7 +4,7 @@ Hosts the main files for the Pokemon CTP  group project. :)
 UPDATE DASHBOARD
 
 10/31/2024 Femi: 
-Femi: Started to add functionality to the front-end of our application added some aesthetic/front end changes, which include but are not limited to:
+Started to add functionality to the front-end of our application added some aesthetic/front end changes, which include but are not limited to:
 Adding a title image
 Two buttons
 Color scheme changes
