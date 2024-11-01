@@ -25,9 +25,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheets-->
-    <link rel="stylesheet" href="styles/general_v3.css">
-    <link rel="stylesheet" href="styles/pokedex_v3.css">
-    <link rel="stylesheet" href="styles/header_v3.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/pokedex.css">
+    <link rel="stylesheet" href="styles/header.css">
 
     
 
@@ -66,14 +66,12 @@
       <div class="poxedex-bottom-left-div"> 
 
         <!-- pokedex left screen -->
-        <div class="left-screen">
-          <p  style=" color:rgb(247, 247, 253); width: 260px;"> DRAG IMAGES IN THE SQAURE BELOW </p>
-          <div id ="drop-zone" ondrop="drop(event)" 
-          ondragover="allowDrop(event)"> 
+        <div class="left-screen" id="left_screen">
+          <p  style=" color:rgb(247, 247, 253); width: 260px;"> DRAG IMAGES INTO THE SQAURE BELOW </p>
+          <div id ="drop-zone" > 
       
           <!-- pokedex left screen drag and drop -->
-          <input type="file" id="file-input"  accept="image/*" 
-          onchange="upload()" style=" color:rgb(247, 247, 253); border: 4px dashed rgb(177, 172, 172); width: 200px; height:160px;" > 
+          <input type="file" id="file-input"  accept="image/*" style=" color:rgb(247, 247, 253); border: 4px dashed rgb(177, 172, 172); width: 200px; height:160px;"  > 
 
         </div>
       </div>
@@ -101,29 +99,7 @@
         
       </div>
 
-      <!--url needed to call SimpleImage method-->
-      <script 
-      src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
-      </script>
-
-
-      <!--  functions needed to call their methods-->
-      <script>
-
-      function allowDrop(even) {
-          even.preventDefault();
-      }
-      function drag(even) {
-          even.dataTransfer.setData("text", even.target.id);
-      }
-
-      function drop(even) {
-         even.preventDefault();
-          var fetchData = even.dataTransfer.getData("text");
-          even.target.appendChild(document.getElementById(fetchData));
-      }
-      </script>
-
+  
 
       
 
@@ -131,23 +107,17 @@
       <!-- Pokedex right screen -->
       <div class="pokedex-bottom-right-div">
       
-        <div class="right-screen" id = "right_screen"> 
-          
-          <div id="predicted"> 
-            <p>
-              <input type="text" name="user" value="CLASSIFCATION?" style="text-align:center;  height: 50px;"> 
-              </p>
-              
-
-          </div>
+        <div class="right-screen" id = "right_screen">
+          <p> <b> Pokemon Type Classification </b> </p> 
+          <!-- Field for providing user with the Pokemon Type classification -->
+          <div id="predicted" style="text-align:center; border: 3px solid; height:50px; width:230px;"></div>
 
           
           <!-- Providing user with their uploaded image or maybe this will be used to output Generative A.I. Pokemon photo? Not sure. -->
-          <p> <b> Uploded Image </b> </p>
-          <canvas id= "canv1" style="width: 200px; height: 100px; border: 4px solid" ></canvas>
-        
-
+          <p> <b> Uploaded Image </b> </p>
+          <div id= "canv1" style="width: 230px; height: 88px; border: 3px solid; text-align:center ;"  ></div>
         </div>
+    
 
      
 
@@ -157,7 +127,13 @@
     
    
       <!-- Pokedex right buttons -->
-        <div class="right-buttons"> right buttons go here</div>
+        <div class="right-buttons"> 
+          <button onclick="clear_Display()"> Clear Image?
+
+          </button>
+
+
+        </div>
    
 
       
@@ -165,7 +141,18 @@
     </div>
 
   <script src="index.js"></script>
+ 
 
+   <!--clears the display of a given image-->
+  <script> 
+    function clear_Display(){
+      document.getElementById("canv1").innerHTML = ""
+      files = null
+      console.log(files)
+
+    }
+  </script>
+ 
 
 
   </body>
