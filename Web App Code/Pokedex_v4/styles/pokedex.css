@@ -92,7 +92,8 @@
     text-align: center;
     align-content: center;
     border-style: solid;
-    border-color: black;
+    border-width: 7px;
+    border-color:  rgb(231, 228, 228);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -119,7 +120,7 @@ margin: 0;
   } 
 .left-buttons {
     background-color: lightpink;
-    height: 60px;
+    height: 50px;
     text-align: center;
     align-content: center;
     margin-top: 10px;
@@ -147,6 +148,8 @@ margin: 0;
     align-content: center;
     border-style: solid;
     border-color: black;
+    border-width: 7px;
+    border-color:  rgb(231, 228, 228);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -170,7 +173,7 @@ margin: 0;
 
 .right-buttons {
     background-color: lightpink;
-    height: 60px;
+    height: 50px;
     text-align: center;
     align-content: center;
     margin-top: 10px;
