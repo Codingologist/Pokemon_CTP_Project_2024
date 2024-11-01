@@ -19,8 +19,7 @@ Converted tensorflow h5 file into a model.json file, so that it could be potenti
 Additionally, a prediction button is currently in the works. For now, it outputs a given value “FIRE”, as a test, with the hopes to add our model output instead. 
 Added a div, where the following type prediction will be displayed.
 
-
-https://cdn.discordapp.com/attachments/1286473911806201976/1302023087277080669/image.png?ex=67269afe&is=6725497e&hm=6674e6bb8f4a3e8851f9cd72da9b151264cf26c34262cc614a1d37bde12c3297&
+![Screenshot 2024-11-01 173445](https://github.com/user-attachments/assets/fb49dbb7-7709-45ab-82e7-b4f9a4096492)
 
 
 
