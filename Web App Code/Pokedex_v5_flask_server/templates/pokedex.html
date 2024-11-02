@@ -1,0 +1,174 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+
+   
+    <title> Pokemon Type Classifier </title>
+    <!-- add title img-->
+    <p style="text-align:center;">
+    <img src="/static/img/title-logo-Photoroom.png" alt="Logo" class="logo">
+    </p>
+    
+   
+  
+   
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets-->
+    <link rel="stylesheet" href="/static/css/general.css">
+    <link rel="stylesheet" href="/static/css/pokedex.css">
+    <link rel="stylesheet" href="/static/css/header.css">
+
+    
+
+  </head>
+ 
+
+  <body>
+    <header class="header" >
+      <img src="/static/img/wtp-logo.png" alt="Logo" class="logo">
+      <nav class="nav-links">
+          <a href="https://github.com/Codingologist/Pokemon_CTP_Project_2024" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://docs.google.com/document/d/1px5VoxZ03zVCybO2vgqVnH8cd0NxKF4Vw3tlwvtwrlc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">About</a>
+          <a href="#contact">Contact</a>
+      </nav>
+  </header>
+    <!-- Pokedex Top Div-->
+    <div class="pokedex-top"
+          style="
+          height: 30px;
+          ">
+
+      <div class="pokedex-top-div-one">  </div>
+
+      <div style="
+      width: 300px;
+  
+      " >  </div>
+    </div>
+
+    <!-- Pokedex Bottom Div-->
+    <div class="pokedex-bottom"
+      style="
+      height: 350px;
+      ">
+
+      <div class="poxedex-bottom-left-div"> 
+
+        <!-- pokedex left screen -->
+        <div class="left-screen" id="left_screen">
+          <p  style=" color:rgb(247, 247, 253); width: 260px;"> DRAG IMAGES INTO THE SQAURE BELOW </p>
+          <div id ="drop-zone" > 
+      
+          <!-- pokedex left screen drag and drop -->
+          <input type="file" id="file-input"  accept="image/*" style=" color:rgb(247, 247, 253); border: 4px dashed rgb(177, 172, 172); width: 200px; height:160px;"  > 
+
+        </div>
+      </div>
+      
+        
+        <!-- pokedex left buttons -->
+        <!-- calls the display_Prediction function with the hopes to display our model's output on the right side of the screen.-->
+        <div class="left-buttons">
+          <button onclick="display_Prediction()"> Some Button Here?
+
+          </button>
+
+        </div>
+        
+      </div>
+
+      <!-- pokedex middle-->
+      <div class="pokedex-middle"> 
+
+        <div class="mid-div-one"> </div>
+
+        <div class="mid-div-two"> </div>
+
+        <div class="mid-div-three"> </div>
+        
+      </div>
+
+  
+
+      
+
+
+      <!-- Pokedex right screen -->
+      <div class="pokedex-bottom-right-div">
+      
+        <div class="right-screen" id = "right_screen">
+          <p  style="font-size: 15px"> <b> Pokemon Type Classification </b>  </p> 
+          <!-- Field for providing user with the Pokemon Type classification -->
+          <div id="predicted" style="text-align:center; border: 1px solid; height:50px; width:220px; font-size: 20px; font:bold;"></div>
+
+          
+          <!-- Providing user with their uploaded image or maybe this will be used to output Generative A.I. Pokemon photo? Not sure. -->
+          <p> <b> Uploaded Image </b> </p>
+          <div id= "canv1" style= "font-size: 25px; width: 220x; height: 85px; border: 1px solid; text-align:center ;"  ></div>
+        </div>
+    
+
+     
+
+   
+     
+     
+    
+   
+      <!-- Pokedex right buttons -->
+        <div class="right-buttons"> 
+          <button onclick="clear_Display()"> Clear Image?
+
+          </button>
+
+          
+
+
+        </div>
+   
+
+      
+      </div>
+    </div>
+  
+ 
+   <!--clears the display of a given image-->
+  <script> 
+    function clear_Display(){
+      document.getElementById("canv1").innerHTML = ""
+      document.getElementById("predicted").innerHTML = ""
+      files = null
+      console.log(files)
+
+    }
+  </script>
+
+    
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+
+
+  
+<script src="/static/js/index.js"></script>
+  
+ 
+
+
+  </body>
+
+</html>
