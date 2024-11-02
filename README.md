@@ -3,6 +3,11 @@ Hosts the main files for the Pokemon CTP  group project. :)
 
 UPDATE DASHBOARD
 
+11/2/2024 Femi:
+Model has now been successfully deployed on a python Flask server, and can now be readily called from our web page. 
+
+
+![Screenshot 2024-11-02 033434](https://github.com/user-attachments/assets/2c64beb5-78e4-4d45-85e6-44a4ee69b7a2)
 
 11/1/2024 Femi:
 
