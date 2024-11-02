@@ -55,7 +55,7 @@ function handleFiles(files) {
 
     
   }
-  //calling M.L. Model working on this still.
+  //calling M.L. Model /Pre-proccesing image.
  
   async function loadModel() {
     const model = await tf.loadLayersModel('public/model/model.json');
@@ -102,7 +102,7 @@ function handleFiles(files) {
     }
 
 
-// We’ll discuss `isValidFileType` function down the road
+
 function isValidFileType(file) {
   const allowedTypes = ['image/jpeg', 'image/png', 'image/gif'];
   return allowedTypes.includes(file.type);

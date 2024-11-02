@@ -82,7 +82,7 @@
         <!-- pokedex left buttons -->
         <!-- calls the display_Prediction function with the hopes to display our model's output on the right side of the screen.-->
         <div class="left-buttons">
-          <button onclick="display_Prediction()"> Some Button Here?
+          <button onclick="display_Prediction()"> Welcome!
 
           </button>
 
@@ -115,7 +115,7 @@
           <div id="predicted" style="text-align:center; border: 1px solid; height:50px; width:220px; font-size: 20px; font:bold;"></div>
 
           
-          <!-- Providing user with their uploaded image or maybe this will be used to output Generative A.I. Pokemon photo? Not sure. -->
+          <!-- Providing user with their uploaded image -->
           <p> <b> Uploaded Image </b> </p>
           <div id= "canv1" style= "font-size: 25px; width: 220x; height: 85px; border: 1px solid; text-align:center ;"  ></div>
         </div>
@@ -159,11 +159,11 @@
     
   
 
-
+ <!--gets the tensorflowjs modules for the model-->
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
 
 
-  
+ <!--calls the index.js file, so that other functions can be run-->  
 <script src="/static/js/index.js"></script>
   
  

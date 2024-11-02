@@ -1,6 +1,6 @@
 
 
-
+// initializes global variables
 let preview;
 let tensor;
 let model;
@@ -18,7 +18,7 @@ let predictedLabel
    
  }
 loadModel()
-//calling M.L. Model working on this still.
+//calling M.L. Model 
  
 
 //drag and drop functionaility code
@@ -80,10 +80,10 @@ function handleFiles(files) {
     console.log('Tensor shape:', tensor.shape);
     
 
-    
+//check's if tensor object was made, if not, returns null to the console.
 if (tensor) {
   
-  //preprocessImage(tensor);
+
 
   predictImage(tensor);
   }
@@ -96,8 +96,8 @@ function preprocessImage(Image) {
 
 
   // Resize the image to match the model's input shape
-  const height = 180; // Change to your model's expected height
-  const width = 180;  // Change to your model's expected width
+  const height = 180; // Change model's expected height
+  const width = 180;  // Change  model's expected width
   const resized = tf.image.resizeBilinear(Image, [height, width]);
   
   
@@ -115,18 +115,20 @@ function preprocessImage(Image) {
   
   const preprocessedImage = preprocessImage(Image);
   
-  // Call the predict function
-  
+  // Call the predict function of model
+
   const predictions = await model.predict(preprocessedImage);
   
-  // Process the predictions to get the labels
+  // Assign labels to the the model
   const labels = ['Bug', 'Bug Electric', 'Bug Fighting', 'Bug Fire', 'Bug Flying', 'Bug Ghost', 'Bug Grass', 'Bug Ground', 'Bug Poison', 'Bug Rock', 'Bug Steel', 'Bug Water', 'Dark', 'Dark Dragon', 'Dark Fighting', 'Dark Fire', 'Dark Flying', 'Dark Ghost', 'Dark Ice', 'Dark Psychic', 'Dark Steel', 'Dragon', 'Dragon Electric', 'Dragon Fairy', 'Dragon Fire', 'Dragon Flying', 'Dragon Ground', 'Dragon Ice', 'Dragon Psychic', 'Electric', 'Electric Dragon', 'Electric Fairy', 'Electric Fire', 'Electric Flying', 'Electric Ghost', 'Electric Grass', 'Electric Ice', 'Electric Normal', 'Electric Steel', 'Electric Water', 'Fairy', 'Fairy Flying', 'Fighting', 'Fighting Dark', 'Fighting Flying', 'Fighting Psychic', 'Fighting Steel', 'Fire', 'Fire Dragon', 'Fire Fighting', 'Fire Flying', 'Fire Ground', 'Fire Normal', 'Fire Psychic', 'Fire Rock', 'Fire Steel', 'Fire Water', 'Flying', 'Flying Dragon', 'Ghost', 'Ghost Dark', 'Ghost Dragon', 'Ghost Fire', 'Ghost Flying', 'Ghost Grass', 'Ghost Poison', 'Grass', 'Grass Dark', 'Grass Dragon', 'Grass Fairy', 'Grass Fighting', 'Grass Flying', 'Grass Ground', 'Grass Ice', 'Grass Poison', 'Grass Psychic', 'Grass Steel', 'Ground', 'Ground Dark', 'Ground Dragon', 'Ground Electric', 'Ground Fire', 'Ground Flying', 'Ground Ghost', 'Ground Psychic', 'Ground Rock', 'Ground Steel', 'Ice', 'Ice Flying', 'Ice Ghost', 'Ice Ground', 'Ice Psychic', 'Ice Water', 'Normal', 'Normal Fairy', 'Normal Fighting', 'Normal Flying', 'Normal Grass', 'Normal Ground', 'Normal Psychic', 'Normal Water', 'Poison', 'Poison Bug', 'Poison Dark', 'Poison Dragon', 'Poison Fighting', 'Poison Flying', 'Poison Ground', 'Poison Water', 'Psychic', 'Psychic Dark', 'Psychic Fairy', 'Psychic Fighting', 'Psychic Fire', 'Psychic Flying', 'Psychic Ghost', 'Psychic Grass', 'Rock', 'Rock Bug', 'Rock Dark', 'Rock Dragon', 'Rock Fairy', 'Rock Fighting', 'Rock Flying', 'Rock Grass', 'Rock Ground', 'Rock Ice', 'Rock Psychic', 'Rock Steel', 'Rock Water', 'Steel', 'Steel Dragon', 'Steel Fairy', 'Steel Fighting', 'Steel Flying', 'Steel Ghost', 'Steel Ground', 'Steel Psychic', 'Steel Rock', 'Water', 'Water Dark', 'Water Dragon', 'Water Electric', 'Water Fairy', 'Water Fighting', 'Water Flying', 'Water Ghost', 'Water Grass', 'Water Ground', 'Water Ice', 'Water Poison', 'Water Psychic', 'Water Rock', 'Water Steel'];
   const predictionArray = await predictions.array();
   
   const predictedIndex = predictionArray[0].indexOf(Math.max(...predictionArray[0]));
   const predictedLabel = labels[predictedIndex];
+  //returns the predicted label to the console
   console.log (predictedLabel)
  
+  //show's the prediction in the Prediction div
   (document.getElementById('predicted').innerText = 'Prediction: ' + predictedLabel);
   
   console.log(files);
@@ -144,15 +146,7 @@ function preprocessImage(Image) {
 
 
 
-
-
-
-
-
-
-
-
-// We’ll discuss `isValidFileType` function down the road
+//fuction checks the file type of a given uploaded file
 function isValidFileType(file) {
 const allowedTypes = ['image/jpeg', 'image/png', 'image/gif'];
 return allowedTypes.includes(file.type);
