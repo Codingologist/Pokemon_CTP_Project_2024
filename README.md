@@ -3,21 +3,23 @@ Hosts the main files for the Pokemon CTP  group project. :)
 
 UPDATE DASHBOARD
 
-10/31/2024 Femi: 
+
+11/1/2024 Femi:
+
 Started to add functionality to the front-end of our application added some aesthetic/front end changes, which include but are not limited to:
-* Adding a title image
-* Two buttons
-* Subjective aesthetic changes
+Added a title image
+Three buttons
+Color scheme changes
+Subjective aesthetic changes
 
 Backend changes too:
-Added a manual file upload (which displays file name and image) /drag and drop option. 
+Added a manual file upload (which displays file name) /drag and drop option. 
+Added a Clear Image button, where users can remove a given uploaded image.
 Converted tensorflow h5 file into a model.json file, so that it could be potentially ready for deployment.
-Additionally, a prediction button is currently in the works. For now, it outputs a given value “FIRE”, as a test, with the hopes to add our model output instead. Lastly a static value of “RESULT”
+Additionally, a prediction button is currently in the works. For now, it outputs a given value “FIRE”, as a test, with the hopes to add our model output instead. 
+Added a div, where the following type prediction will be displayed.
+![Screenshot 2024-11-01 173445](https://github.com/user-attachments/assets/12ec74af-c11c-4a1b-92fe-56f8db99c88b)
 
-
-
-
-![Screenshot 2024-11-01 042228](https://github.com/user-attachments/assets/66768c5c-6066-44cf-8db7-5fe6bff5be8a)
 
 
 10/30/2024 Carmen:
