@@ -1,0 +1,16 @@
+STEPS TO RUN HTML ON SERVER:
+
+1. RUN THE APP.py fille in a given terminal / IDE. 
+
+2. When that's running: Go to site: http://127.0.0.1:5000/ on any web browser, to access the website.
+
+3. right click
+
+4. click inspect page -> click Console, so you can utilize the browser to debug.
+
+5. Edit the files as you wish, once you save them, refresh the browser, and the new content will update.
+
+
+VERY IMPORTANT:
+Do not modify the order/file names as this will affect how the website components load. 
+:)
