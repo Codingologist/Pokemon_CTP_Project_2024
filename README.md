@@ -29,7 +29,7 @@ Added a div, where the following type prediction will be displayed.
 
 10/30/2024 Carmen:
 <br>
-<img width="700" height="300" alt="v3_pokedex" src="https://github.com/user-attachments/assets/3d12b992-240c-4120-9143-24ebd1600015">
+<img width="600" height="300" alt="v3_pokedex" src="https://github.com/user-attachments/assets/3d12b992-240c-4120-9143-24ebd1600015">
 <br>
 Completed version 3 of Pokedex interface. Added background image, pokedex offset shading to give “floating” effect, transparent header with logo and useful links.
 Looking to add buttons, Title, and “Pokemon-esque” font in V4
