@@ -25,7 +25,8 @@ Added a Clear Image button, where users can remove a given uploaded image.
 Converted tensorflow h5 file into a model.json file, so that it could be potentially ready for deployment.
 Additionally, a prediction button is currently in the works. For now, it outputs a given value “FIRE”, as a test, with the hopes to add our model output instead. 
 Added a div, where the following type prediction will be displayed.
-![Screenshot 2024-11-01 173445](https://github.com/user-attachments/assets/12ec74af-c11c-4a1b-92fe-56f8db99c88b)
+
+![image](https://github.com/user-attachments/assets/7cd679c3-244e-448c-93ab-ccda7b009986)
 
 
 
