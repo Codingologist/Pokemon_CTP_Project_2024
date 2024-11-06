@@ -1,6 +1,8 @@
 # Pokemon_CTP_Project
 Hosts the main files for the Pokemon CTP  group project. :)
 
+Detailed Google Docs: https://docs.google.com/document/d/1px5VoxZ03zVCybO2vgqVnH8cd0NxKF4Vw3tlwvtwrlc/edit?usp=sharing
+
 UPDATE DASHBOARD
 
 11/2/2024 Femi:
