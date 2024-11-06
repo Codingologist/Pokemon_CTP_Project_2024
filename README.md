@@ -26,8 +26,6 @@ Converted tensorflow h5 file into a model.json file, so that it could be potenti
 Additionally, a prediction button is currently in the works. For now, it outputs a given value “FIRE”, as a test, with the hopes to add our model output instead. 
 Added a div, where the following type prediction will be displayed.
 
-![image](https://github.com/user-attachments/assets/7cd679c3-244e-448c-93ab-ccda7b009986)
-
 
 
 10/30/2024 Carmen:
@@ -53,7 +51,7 @@ Started on version 1 mock-up of front-end design for Pokedex using HTML & CSS. L
 Found a way to derive a Python script, who's goal was to web scrap Pokemon images from Google images. At this time, the script has web-scrapped over 40,000 + images. This is good so far, and once fed to our model
 should make it more accurate. Lastly, the aim is web scrap over 100k + images, within a reasonable time frame, to improve the robustness of our model!
 
-https://cdn.discordapp.com/attachments/1286473911806201976/1286906382385152131/image.png?ex=672c4177&is=672aeff7&hm=4f946f37ec864daf12e7ac99ed835c92b64f5636600766a3534c35bf7213c0ab&
+![image](https://github.com/user-attachments/assets/7cd679c3-244e-448c-93ab-ccda7b009986)
 
 9/21/2024(2) Femi:
 Found a current work around to automate cleaning the image data from our datasets, classify them into the 150 + types, and create class folders for them, so that it could be fed into the model.
@@ -67,9 +65,6 @@ and talk about how we can do this, so that our model can input true value. :)
 
 Albiet not reccomended, we may have to do some web scrapping as we need a larger training set of images to train our model on.
 If start early and run it daily whenever, we are not using out devices, we could obtain a substatial amount of data!
-
-
-
 
 
 
