@@ -1,5 +1,7 @@
-# Pokemon_CTP_Project
+# Pokemon_CTP_Project:  
 Hosts the main files for the Pokemon CTP  group project. :)
+
+Wep App Here: https://huggingface.co/spaces/Dataologist/PokeTypeClassifierSpace
 
 Detailed Google Docs: https://docs.google.com/document/d/1px5VoxZ03zVCybO2vgqVnH8cd0NxKF4Vw3tlwvtwrlc/edit?usp=sharing
 
